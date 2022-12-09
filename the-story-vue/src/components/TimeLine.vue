@@ -183,24 +183,28 @@
         :itemTitle="`Lakes & Love`"
         :itemText="`August 2022`"
         :itemQuote="`~  ~`"
+        :itemIcon="'mdi-waves'"
       />
       <time-line-item
         :titleBarColor="'orange'"
         :itemTitle="`Bueller & Brushes`"
         :itemText="`September 2022`"
         :itemQuote="`~  ~`"
+        :itemIcon="'mdi-brush'"
       />
       <time-line-item
         :titleBarColor="'orange'"
         :itemTitle="`Hand Flex & Harry Potter`"
         :itemText="`October 2022`"
         :itemQuote="`~  ~`"
+        :itemIcon="'mdi-deathly-hallows'"
       />
       <time-line-item
         :titleBarColor="'orange'"
-        :itemTitle="`Fesive Faith & Fruits Basket`"
+        :itemTitle="`Festive Faith & Fruits Basket`"
         :itemText="`December 2022`"
         :itemQuote="`~  ~`"
+        :itemIcon="'mdi-string-lights'"
       />
     </v-timeline>
     <!-- ______________ -->

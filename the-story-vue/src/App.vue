@@ -7,7 +7,7 @@
       <div class="d-flex align-center">
         <v-img
           class="shrink mr-2"
-          style="width: 300px;"
+          style="width: 350px;"
           contain
           src="./assets/names2.png"
           transition="scale-transition"
