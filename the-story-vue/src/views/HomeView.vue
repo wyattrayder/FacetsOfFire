@@ -1,13 +1,8 @@
 <template>
   <div>
-    <!-- <div class="headerDiv">
-      <h1>The Story of Us</h1>
-    </div>
-    <div class="headerDiv">
-      <h2>Faith and Wyatt</h2>
-    </div> -->
 
     <photo-slider :slides="topSlides" />
+    
     <p class="introParagraph">
       Hello there, Ms. Faith! I made this website as a recap, or a summary if
       you will, of the "book" we call our relationship! As you know, it's been
@@ -15,6 +10,7 @@
       to this very moment! I cannot wait for the next chapters in our life --
       it's such a page-turner!
     </p>
+
     <time-line />
 
   </div>

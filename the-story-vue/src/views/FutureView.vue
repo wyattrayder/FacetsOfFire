@@ -1,12 +1,18 @@
 <template>
   <div>
+    <div class="flexAndCenter mt-5">
+      <audio controls autoplay>
+        <source src="../assets/media/ThisIsIt.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
     <!-- Future Timeline... -->
     <v-timeline dense style="padding-right: 24px">
       <time-line-item
         :titleBarColor="'red lighten-1'"
         :itemTitle="`Developing & Dancing`"
         :itemText="`...`"
-        :itemQuote="`~ And then we danced... ~`"
+        :itemQuote="`~And then we danced...~`"
         :quoteGiver="'Brad Paisley'"
         :itemIcon="'mdi-code-tags'"
       />
@@ -14,7 +20,7 @@
         :titleBarColor="'red lighten-1'"
         :itemTitle="`Puppies & Prague`"
         :itemText="`...`"
-        :itemQuote="`~Gonna take you to Buckingham palace 'cause you're my queen ~`"
+        :itemQuote="`~Gonna take you to Buckingham palace 'cause you're my queen~`"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-dog'"
       />
@@ -36,13 +42,6 @@
       />
     </v-timeline>
     <!-- ______________ -->
-
-    <div class="flexAndCenter">
-    <audio controls autoplay hidden>
-      <source src="../assets/media/ThisIsIt.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
-    </div>
   </div>
 </template>
 
@@ -51,8 +50,8 @@ import TimeLineItem from "../components/TimeLineItem.vue";
 export default {
   components: { TimeLineItem },
   mounted() {
-    this.$emit('title', 'future');
-  }
+    this.$emit("title", "future");
+  },
 };
 </script>
 
