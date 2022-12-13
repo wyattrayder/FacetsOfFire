@@ -11,7 +11,7 @@
       </v-card-subtitle>
       <v-container>
         <v-row>
-          <v-col>
+          <v-col class="normalFont">
             {{ itemText }}
           </v-col>
         </v-row>
@@ -20,18 +20,23 @@
         <v-card flat tile width="100%">
           <v-card-text>
             <strong>{{ itemQuote }}</strong>
+            <div style="display: block;">{{ quoteGiver }}</div>
           </v-card-text>
         </v-card>
       </v-footer>
     </v-card>
+    <photo-slider v-if="photoSlides" :slides="photoSlides"/>
   </v-timeline-item>
 </template>
 
 <script>
+import PhotoSlider from './PhotoSlider.vue'
 export default {
-  data: () => ({}),
+  data: () => ({
+    
+  }),
 
-  methods: {},
+  components: { PhotoSlider },
 
   props: {
     titleBarColor: String,
@@ -39,7 +44,9 @@ export default {
     itemSubTitle: String,
     itemText: String,
     itemQuote: String,
+    quoteGiver: String,
     itemIcon: String,
+    photoSlides: Array,
   },
 };
 </script>
@@ -47,5 +54,8 @@ export default {
 <style scoped>
 .quoteFooter {
   text-align: center;
+}
+.normalFont {
+  font-family: "Roboto", sans-serif !important;
 }
 </style>

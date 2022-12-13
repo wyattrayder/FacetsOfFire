@@ -11,7 +11,7 @@ export default new Vuetify({
             background: '#254525', // Velvet Green
           },
           dark: {
-            background: '#50485b'
+            background: '#50485b' // Purple
           },
           
         },
