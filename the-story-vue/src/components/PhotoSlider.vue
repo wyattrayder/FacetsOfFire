@@ -6,7 +6,6 @@
         :src="slide.src"
         max-height="400px"
         contain
-        eager
       ></v-img>
       </div>
     </v-carousel-item>

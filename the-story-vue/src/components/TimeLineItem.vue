@@ -1,15 +1,15 @@
 <template>
-  <v-timeline-item :color="titleBarColor" fill-dot right :icon="itemIcon">
-    <v-card>
-      <v-card-title :class="titleBarColor" style="justify-content: center">
+  <v-timeline-item :color="titleBarColor" fill-dot right :icon="itemIcon" >
+    <v-card :color="titleBarColor">
+      <v-card-title style="justify-content: center">
         <h3 style="text-align: center; word-break: break-word">
           {{ itemTitle }}
         </h3>
       </v-card-title>
-      <v-card-subtitle :class="titleBarColor" style="text-align: center;">
+      <v-card-subtitle style="text-align: center;">
         {{ itemSubTitle }}
       </v-card-subtitle>
-      <v-container>
+      <v-container class="whiteBackground">
         <v-row>
           <v-col class="normalFont">
             {{ itemText }}
@@ -57,5 +57,8 @@ export default {
 }
 .normalFont {
   font-family: "Roboto", sans-serif !important;
+}
+.whiteBackground {
+  background-color: white !important;
 }
 </style>

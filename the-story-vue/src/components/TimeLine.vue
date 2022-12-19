@@ -11,7 +11,7 @@
         </v-layout>
       </v-container>
     </v-card>
-    <v-timeline dense style="padding-right: 24px">
+    <v-timeline dense style="padding-right: 24px" align-top>
       <time-line-item
         :titleBarColor="'green lighten-1'"
         :itemTitle="'Calculus & Cunningham'"
@@ -20,7 +20,8 @@
                     I had high hopes and dreams of making new friends. 
                     That day I saw an amazing girl, who just so 
                     happened to be in my first two classes -- Calculus 
-                    & Cunningham`"
+                    & Cunningham.  I had no idea just how amazing she would
+                    end up being.`"
         :itemQuote="'~Falling for a Stranger~'"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-square-root'"
@@ -36,7 +37,7 @@
                     I knew exactly who I wanted to ask -- Ms. Faith Walker.  Did a 
                     quick Instagram search and boom!  You hooked me up with some excellent
                     notes.  Man, she is nice, I want her to be my friend.`"
-        :itemQuote="'~And then I saw her blue eyes..~'"
+        :itemQuote="'~And then I saw your blue eyes~'"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-music-note-eighth'"
       />
@@ -62,15 +63,16 @@
         </v-layout>
       </v-container>
     </v-card>
-    <v-timeline dense style="padding-right: 24px">
+    <v-timeline dense style="padding-right: 24px" align-top>
       <time-line-item
         :titleBarColor="'blue lighten-1'"
-        :itemTitle="` Friends and Ferocity `"
+        :itemTitle="` Friends & Ferocity `"
         :itemSubTitle="'Fall 2020'"
         :itemText="`We had grown to be pretty good friends.  I admired
                     your intelligence and geekiness.  I had found an
                     excellent friend.  This was cut short, however, due
-                    to the ferocity of one.`"
+                    to the ferocity of one.  Melancholy consumed me.
+                    I had left a friend and remained with the ferocity.`"
         :itemQuote="`~Nobody in his right mind would've left her~`"
         :quoteGiver="'George Strait'"
         :itemIcon="'mdi-emoticon-sad'"
@@ -100,8 +102,9 @@
                     went through many hardships before I decided it was time.  I followed
                     the advice that my parents gave me -- 'Follow your heart and find someone
                     who will truly will love you. Love cannot be one sided'.  The day I messaged
-                    you that summer, my heart felt full again.  The rest of the summer was filled
-                    with 'Dear Hank and John', Zoopocalypse, and nerd talk with Faith.  I am thankful for praying 
+                    you that summer, my heart felt full again. I was so thankful that you had not 
+                    given up on me and were still willing to be my friend.  The rest of the summer was filled
+                    with 'Dear Hank and John', Zoopocalypse, and nerd talk with you.  I am thankful for praying 
                     and podcasts.`"
         :itemQuote="`~Every storm runs out of rain~`"
         :quoteGiver="'Gary Allen'"
@@ -118,7 +121,7 @@
         </v-layout>
       </v-container>
     </v-card>
-    <v-timeline dense style="padding-right: 24px">
+    <v-timeline dense style="padding-right: 24px" align-top>
       <time-line-item
         :titleBarColor="'purple lighten-1'"
         :itemTitle="`Zoopocalypse & a Zephyr`"
@@ -207,7 +210,7 @@
       />
       <time-line-item
         :titleBarColor="'purple lighten-1'"
-        :itemTitle="`Polaroids and Parents`"
+        :itemTitle="`Polaroids & Parents`"
         :itemSubTitle="'April 2022'"
         :itemText="`We took our first polaroid together (technically the last day of March, but
                     we will squeeze it in here hehe).  It was for our 'dress fancy to go out to eat'
@@ -219,7 +222,7 @@
                     `"
         :itemQuote="`~He pulls out a faded polaroid, same table their first date~`"
         :quoteGiver="'Scotty McCreery'"
-        :itemIcon="'mdi-pi'"
+        :itemIcon="'mdi-camera'"
         :photoSlides="polaroidsAndParents"
       />
       <time-line-item
@@ -246,12 +249,14 @@
         :titleBarColor="'purple lighten-1'"
         :itemTitle="`Ties & Tiramisu`"
         :itemSubTitle="'Summer 2022'"
-        :itemText="`My love for you grew stronger and stonger.  My love for bow ties also slowly increased.
-                    The rest of the summer consisted of many dates and cuddles (you can't ask for much better
-                    than that!).  We sported fancy attire -- I love being fancy with you Faith.  From fancy 
-                    italian restaraunts to the bowling alley to anywhere in this world.  It doesn't matter where
-                    we are at -- I will love you wholeheartedly.`"
-        :itemQuote="`~ You time, you time, red wine. Sippin' in the moonlight
+        :itemText="`My love for you grew stronger and stonger.  My love for bow ties also slowly increased.  This
+                    summer I had the opportunity to intern at ArcBest Technologies and you were so incredibly
+                    supportive through the whole thing.  I love that about you.  Despite being a good distance away,
+                    the rest of the summer consisted of many dates and cuddles (you can't ask for much better
+                    than that!).  We sported fancy attire for many occasions -- I love being fancy with you!  From fancy 
+                    italian restaraunts to the bowling alley to anywhere in this world, I love just being in your presence.  
+                    It doesn't matter where we are at -- I will love you wholeheartedly.`"
+        :itemQuote="`~ You time, you time, red wine. Sippin' in the moonlight.
                        Your touch, your skin, your lips -- kissin' on me all night ~`"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-bow-tie'"
@@ -268,7 +273,7 @@
         </v-layout>
       </v-container>
     </v-card>
-    <v-timeline dense style="padding-right: 24px">
+    <v-timeline dense style="padding-right: 24px" align-top>
       <time-line-item
         :titleBarColor="'orange'"
         :itemTitle="`Lakes & Laughter`"
@@ -277,10 +282,10 @@
                     favorite spots -- Lake Dardanelle.  A beautiful view 
                     so close to campus; it made (and still makes) a perfect place to just vibe
                     with you. Whether we were walking around the lake and taking silly photographs
-                    or if we were just chilling in the car eating some Sonic 50 cent corn dogs,
-                    it didn't matter, we had an amazing time.  That is one thing I love about you. We
+                    or if we were just chilling in the car eating some Sonic 99 cent mozzarella sticks,
+                    it didn't matter, we had an amazing time regardless.  That is one thing I love about you. We
                     can be doing literally anything and I'd be the happiest man alive just
-                    because I was in your presence.  I was, and always will be, yours. I love
+                    because I was with you.  I was, and always will be, yours. I love
                     lakes and laughter with you.`"
         :itemQuote="`~If I lay here. If I just lay here. Would you lie with me and just forget the world?~`"
         :quoteGiver="'Snow Patrol'"
@@ -309,7 +314,7 @@
       />
       <time-line-item
         :titleBarColor="'orange'"
-        :itemTitle="`Potter and Portrait Mode`"
+        :itemTitle="`Potter & Portrait Mode`"
         :itemSubTitle="'October 2022'"
         :itemText="`October was an excellent month!  We started it off from the get-go by watching your favorite
                     all time movie -- Pride and Prejudice!  I could then appreciate the amazing memes (Pikachu Mr. Darcy
@@ -325,6 +330,26 @@
                        happy~`"
         :quoteGiver="'Mrs. Darcy'"
         :itemIcon="'mdi-deathly-hallows'"
+        :photoSlides="potterAndPortraitMode"
+      />
+      <time-line-item
+        :titleBarColor="'orange'"
+        :itemTitle="`Sugar & Sadalytics`"
+        :itemSubTitle="'November 2022'"
+        :itemText="`November started with us doing something we had been dying to do -- 
+                    go to a cat cafe! Ever since I had found out about that one opening in Conway
+                    I knew that I wanted to take you and just let you vibe with the cats.  It was
+                    a Faith paradise.  Our visit went excellently, despite the poor kitty who threw 
+                    up on the couch.  My favorite kitty there was Sugar -- and he got adopted later in
+                    the month!  My favorite meant-to-be-kitty was definitly Faith *wink wink*!  Later in
+                    the month I had my final presentation for SAD II.  I had worked extremely hard on our project
+                    and you were my emotional support Faith every step of the way.  You rooted for me and calmed me
+                    when I got flustered.  You are so amazing.  At the end of the day, my group and I killed our presentation
+                    and I got to spend the rest of the evening with my favorite person, you!  We had dinner at Old 
+                    South (one of my favs) with you parents -- what an excellent way to cap off the day.`"
+        :itemQuote="`~~`"
+        :quoteGiver="''"
+        :itemIcon="'mdi-laptop'"
       />
       <time-line-item
         :titleBarColor="'orange'"
@@ -337,8 +362,7 @@
                     TOO wildly, however, because you were led to believe that I got you 
                     fruit snacks!!  It's okay, I take that as a compliment to my wrapping!!
                     We got some pretty bomb pictures as well, if you ask me!  We will be able
-                    to cherish these moments for the rest of our lives, including this one right at 
-                    this moment.`"
+                    to cherish these moments for the rest of our lives, including this one right now.`"
         :itemQuote="`~  ~`"
         :itemIcon="'mdi-string-lights'"
       />
@@ -498,6 +522,44 @@ export default {
       {
         id: 4,
         src: require("../assets/Slider Photos/SeniorYear/Bueller/TaytoPaintings.jpg"),
+      },
+    ],
+    potterAndPortraitMode: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/HPWithDobby.jpg"),
+      },
+      {
+        id: 2,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/HPSelfie.jpg"),
+      },
+      {
+        id: 3,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/HPSelfie2.jpg"),
+      },
+      {
+        id: 4,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/HPEyes.jpg"),
+      },
+      {
+        id: 5,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/FaithRailroadWink.jpg"),
+      },
+      {
+        id: 6,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/FaithRailroadEpic.jpg"),
+      },
+      {
+        id: 7,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/Chess.jpg"),
+      },
+      {
+        id: 8,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/FaithMarketplace.jpg"),
+      },
+      {
+        id: 9,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/WyattMarketplace.jpg"),
       },
     ],
   }),

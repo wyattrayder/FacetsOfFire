@@ -3,8 +3,8 @@
 
     <photo-slider :slides="topSlides" />
     
-    <p class="introParagraph">
-      Hello there, Ms. Faith! I made this website as a recap, or a summary if
+    <p class="introParagraph ma-4">
+      Merry Christmas, Ms. Faith! I made this website as a recap, or a summary if
       you will, of the "book" we call our relationship! As you know, it's been
       one amazing story so far -- starting from Dr. Finan's class all of the way
       to this very moment! I cannot wait for the next chapters in our life --
