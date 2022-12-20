@@ -7,19 +7,19 @@
       </audio>
     </div>
     <!-- Future Timeline... -->
-    <v-timeline dense style="padding-right: 24px">
+    <v-timeline dense style="padding-right: 24px" align-top>
       <time-line-item
         :titleBarColor="'red lighten-1'"
         :itemTitle="`Developing & Dancing`"
-        :itemText="`...`"
-        :itemQuote="`~And then we danced...~`"
-        :quoteGiver="'Brad Paisley'"
+        :itemText="``"
+        :itemQuote="`~To be fond of dancing was a certain step towards falling in love~`"
+        :quoteGiver="'Jane Austen'"
         :itemIcon="'mdi-code-tags'"
       />
       <time-line-item
         :titleBarColor="'red lighten-1'"
         :itemTitle="`Puppies & Prague`"
-        :itemText="`...`"
+        :itemText="``"
         :itemQuote="`~Gonna take you to Buckingham palace 'cause you're my queen~`"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-dog'"
@@ -27,7 +27,7 @@
       <time-line-item
         :titleBarColor="'red lighten-1'"
         :itemTitle="`Kitties & Kids`"
-        :itemText="`...`"
+        :itemText="``"
         :itemQuote="`~Chapter 6 -- now we're talking kids~`"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-cat'"
@@ -35,7 +35,7 @@
       <time-line-item
         :titleBarColor="'red lighten-1'"
         :itemTitle="`Mrs. Sillavan & Me`"
-        :itemText="`...`"
+        :itemText="``"
         :itemQuote="`~Now you're walking down the aisle. I can't help but smile~`"
         :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-ring'"

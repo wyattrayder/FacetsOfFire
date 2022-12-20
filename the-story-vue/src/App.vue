@@ -1,32 +1,20 @@
 <template>
   <v-app>
-    <v-app-bar  color="background" prominent class="appBar">
+    <v-app-bar color="background" prominent class="appBar">
+      <div class="barContainer">
+        <div class="titleDiv">
+          <h1 v-if="currentView == 'story'">The Story of Us</h1>
+          <h1 v-if="currentView == 'future'">The Future of Us</h1>
+        </div>
 
-      <v-spacer></v-spacer>
-
-      <!-- <div class="d-flex align-center">
-        <v-img
-          class="shrink mr-2"
-          style="width: 350px;"
-          contain
-          src="./assets/names2.png"
-          transition="scale-transition"
-        />
-      </div> -->
-
-      <h1 v-if="currentView == 'story'">The Story of Us</h1>
-      <h1 v-if="currentView == 'future'">The Future of Us</h1>
-
-      <v-spacer></v-spacer>
-
-      <!-- <v-switch
-        v-model="$vuetify.theme.dark"
-        inset
-      ></v-switch> -->
+        <div class="switch">
+          <v-switch v-model="$vuetify.theme.dark" inset></v-switch>
+        </div>
+      </div>
     </v-app-bar>
 
     <v-main class="mainBackground">
-      <router-view v-on:title="updateTitle"/>
+      <router-view v-on:title="updateTitle" />
     </v-main>
   </v-app>
 </template>
@@ -36,14 +24,14 @@ export default {
   name: "App",
 
   data: () => ({
-    currentView: "story"
+    currentView: "story",
   }),
 
   methods: {
     updateTitle(newTitle) {
       this.currentView = newTitle;
     },
-  }
+  },
 };
 </script>
 
@@ -56,6 +44,19 @@ export default {
 .appBar {
   display: list-item;
 }
+.barContainer {
+  width: 100%;
+}
+.switch {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.titleDiv {
+  display: flex;
+  justify-content: center;
+}
+
 
 h1 {
   font-size: 55px;

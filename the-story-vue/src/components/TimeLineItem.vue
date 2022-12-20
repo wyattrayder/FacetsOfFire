@@ -9,7 +9,14 @@
       <v-card-subtitle style="text-align: center;">
         {{ itemSubTitle }}
       </v-card-subtitle>
-      <v-container class="whiteBackground">
+      <v-container class="whiteBackground fullWidth" v-if="!$vuetify.theme.dark">
+        <v-row>
+          <v-col class="normalFont">
+            {{ itemText }}
+          </v-col>
+        </v-row>
+      </v-container>
+      <v-container class="blackBackground fullWidth" v-if="$vuetify.theme.dark">
         <v-row>
           <v-col class="normalFont">
             {{ itemText }}
@@ -60,5 +67,12 @@ export default {
 }
 .whiteBackground {
   background-color: white !important;
+}
+.blackBackground {
+  background-color: #1E1E1E !important;
+}
+.fullWidth {
+  min-width: fit-content !important;
+  max-width: none;
 }
 </style>

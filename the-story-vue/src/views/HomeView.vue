@@ -92,6 +92,26 @@ export default {
         id: 17,
         src: require("../assets/Slider Photos/TopSlider/WyattWithDerp.jpg"),
       },
+      {
+        id: 18,
+        src: require("../assets/Slider Photos/TopSlider/FaithBonzai.jpg"),
+      },
+      {
+        id: 19,
+        src: require("../assets/Slider Photos/TopSlider/FaithDuckLips.jpg"),
+      },
+      {
+        id: 20,
+        src: require("../assets/Slider Photos/TopSlider/FaithGraciePlush.jpg"),
+      },
+      {
+        id: 21,
+        src: require("../assets/Slider Photos/TopSlider/FaithMtNebo.jpg"),
+      },
+      {
+        id: 22,
+        src: require("../assets/Slider Photos/TopSlider/FaithPeachySelfie.jpg"),
+      },
     ],
   }),
 

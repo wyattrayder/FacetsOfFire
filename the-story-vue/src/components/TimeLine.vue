@@ -49,7 +49,8 @@
                     test was just not it.  The second test rolled around and who killed it
                     out of the room of mostly sophomores?  The two freshman.  We received 
                     A's and applause.  I love how smart she is.`"
-        :itemQuote="'~ *insert first message here* ~'"
+        :itemQuote="'~Never confuse a single defeat with a final defeat.~'"
+        :quoteGiver="'F. Scott Fitzgerald'"
         :itemIcon="'mdi-hand-clap'"
       />
     </v-timeline>
@@ -109,6 +110,7 @@
         :itemQuote="`~Every storm runs out of rain~`"
         :quoteGiver="'Gary Allen'"
         :itemIcon="'mdi-podcast'"
+        :photoSlides="prayingAndPodcasts"
       />
     </v-timeline>
     <!-- ______________ -->
@@ -152,7 +154,8 @@
                     Just a couple of days later, you invited me to study with you for our
                     Linear test at Midtown.  Oh, what a great day :)  I was able to grow
                     close to you through Matrix Man and Midtown.`"
-        :itemQuote="`~  ~`"
+        :itemQuote="`~ When you love you wish to do things for. You wish to sacrifice for. You wish to serve.~`"
+        :quoteGiver="'Ernest Hemingway'"
         :itemIcon="'mdi-matrix'"
       />
       <time-line-item
@@ -347,9 +350,10 @@
                     when I got flustered.  You are so amazing.  At the end of the day, my group and I killed our presentation
                     and I got to spend the rest of the evening with my favorite person, you!  We had dinner at Old 
                     South (one of my favs) with you parents -- what an excellent way to cap off the day.`"
-        :itemQuote="`~~`"
-        :quoteGiver="''"
+        :itemQuote="`~Baby I love what you do!~`"
+        :quoteGiver="'Scotty McCreery'"
         :itemIcon="'mdi-laptop'"
+        :photoSlides="sugarAndSadalytics"
       />
       <time-line-item
         :titleBarColor="'orange'"
@@ -362,9 +366,11 @@
                     TOO wildly, however, because you were led to believe that I got you 
                     fruit snacks!!  It's okay, I take that as a compliment to my wrapping!!
                     We got some pretty bomb pictures as well, if you ask me!  We will be able
-                    to cherish these moments for the rest of our lives, including this one right now.`"
-        :itemQuote="`~  ~`"
+                    to cherish these moments for the rest of our lives, including this one right now.
+                    They go by so fast and we have to make the best of them!`"
+        :itemQuote="`~Time rolls by the clock don't stop ... I wish I had five more minutes~`"
         :itemIcon="'mdi-string-lights'"
+        :photoSlides="festiveFaithAndFruitsBasket"
       />
     </v-timeline>
     <!-- ______________ -->
@@ -388,6 +394,12 @@
 import TimeLineItem from "./TimeLineItem.vue";
 export default {
   data: () => ({
+    prayingAndPodcasts: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/SophomoreYear/BurstPie.png"),
+      },
+    ],
     piSpyAndPerfection: [
       {
         id: 1,
@@ -560,6 +572,58 @@ export default {
       {
         id: 9,
         src: require("../assets/Slider Photos/SeniorYear/Potter/WyattMarketplace.jpg"),
+      },
+      {
+        id: 10,
+        src: require("../assets/Slider Photos/SeniorYear/Potter/CornMazeSelfie.jpg"),
+      },
+    ],
+    sugarAndSadalytics: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/SeniorYear/SAD/OldSouth.jpg"),
+      },
+      {
+        id: 2,
+        src: require("../assets/Slider Photos/SeniorYear/SAD/CatCafe.jpg"),
+      },
+    ],
+    festiveFaithAndFruitsBasket: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/WyattHoldingFaith.jpg"),
+      },
+      {
+        id: 2,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/APT-Party-SantaHat.jpg"),
+      },
+      {
+        id: 3,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/BCM-Party-CandyCanes.jpg"),
+      },
+      {
+        id: 4,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/FaithBlanketChistmasTree.jpg"),
+      },
+      {
+        id: 5,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/ChristmasSelfie.jpg"),
+      },
+      {
+        id: 6,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/FaithWendys.jpg"),
+      },
+      {
+        id: 7,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/SelfieChristamsTree.jpg"),
+      },
+      {
+        id: 8,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/FaithLaChiquita.jpg"),
+      },
+      {
+        id: 9,
+        src: require("../assets/Slider Photos/SeniorYear/Festive/PolaroidScotty.jpg"),
       },
     ],
   }),
