@@ -25,7 +25,7 @@
       </v-container>
       <v-footer padless class="quoteFooter">
         <v-card flat tile width="100%">
-          <v-card-text>
+          <v-card-text class="cursiveFont">
             <strong>{{ itemQuote }}</strong>
             <div style="display: block;">{{ quoteGiver }}</div>
           </v-card-text>
@@ -64,6 +64,9 @@ export default {
 }
 .normalFont {
   font-family: "Roboto", sans-serif !important;
+}
+.cursiveFont {
+  font-family: "Niconne", cursive;
 }
 .whiteBackground {
   background-color: white !important;

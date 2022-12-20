@@ -57,9 +57,8 @@ export default {
   justify-content: center;
 }
 
-
 h1 {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 600;
   font-family: "Niconne", cursive;
   color: #e0d6e9;
