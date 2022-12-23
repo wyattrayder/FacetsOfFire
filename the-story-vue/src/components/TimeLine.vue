@@ -375,7 +375,7 @@
     </v-timeline>
     <!-- ______________ -->
 
-    <!-- Senior Year -->
+    <!-- The Big Day -->
     <v-card light flat class="yearCards">
       <v-container>
         <v-layout class="flexAndCenter">
