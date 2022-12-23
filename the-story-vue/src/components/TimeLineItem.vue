@@ -2,7 +2,7 @@
   <v-timeline-item :color="titleBarColor" fill-dot right :icon="itemIcon" >
     <v-card :color="titleBarColor">
       <v-card-title style="justify-content: center">
-        <h3 style="text-align: center; word-break: break-word">
+        <h3 style="text-align: center; word-break: break-word" class="cursiveFont">
           {{ itemTitle }}
         </h3>
       </v-card-title>

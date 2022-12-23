@@ -369,8 +369,92 @@
                     to cherish these moments for the rest of our lives, including this one right now.
                     They go by so fast and we have to make the best of them!`"
         :itemQuote="`~Time rolls by the clock don't stop ... I wish I had five more minutes~`"
-        :itemIcon="'mdi-string-lights'"
+        :itemIcon="'mdi-basket'"
         :photoSlides="festiveFaithAndFruitsBasket"
+      />
+    </v-timeline>
+    <!-- ______________ -->
+
+    <!-- Senior Year -->
+    <v-card light flat class="yearCards">
+      <v-container>
+        <v-layout class="flexAndCenter">
+          <strong class="mr-4">The Big Day</strong>
+        </v-layout>
+      </v-container>
+    </v-card>
+    <v-timeline dense style="padding-right: 24px" align-top>
+      <time-line-item
+        :titleBarColor="'red'"
+        :itemTitle="`Earmuffs & Euphoria`"
+        :itemSubTitle="'December 21st 2022'"
+        :itemText="`The big day had finally arrived!  I did not sleep well due
+                    to my 'can't sleep well before a big day'-itis.  Nonetheless,
+                    I was pumped and awaited your arrival.  I had picked out a 
+                    semi-matching outfit and stashed the ring box in the secret
+                    pocket of my coat (classic).  We started our adventure with
+                    an excellent photoshoot with Space Tayto -- he got to wear your
+                    big, fluffy earmuffs!  They didn't look near as good on him as they
+                    did on you though.  You were sporting a floofy blue sweater, your classic
+                    Faith coat and docs, and the aforementioned earmuffs -- *so* beautiful!
+                    I couldn't help but get caught up in the eurphoria of the moment.`"
+        :itemQuote="`~Get your camera, take a picture. You know you don't wanna miss a minute
+                      of what's going on!~`"
+        :quoteGiver="'Scotty McCreery'"
+        :itemIcon="'mdi-snowflake'"
+        :photoSlides="earmuffsAndEuphoria"
+      />
+      <time-line-item
+        :titleBarColor="'red'"
+        :itemTitle="`Rocky and Rolls`"
+        :itemSubTitle="'December 21st 2022'"
+        :itemText="`Our adventure then moved to my grandma's house. Our car ride there was filled with
+                    Christmas music (both Scotty and eulogy alike) and morphing words (Faith's Klog © 2022).
+                    Once we got to my grandma's house, you beelined for the cats!  Honeybear was the clear 
+                    target, as Rocky viewed the party from afar.  We then moved onto the food!  Despite the
+                    lack of pizza, we still ate well and got full!  Presents were busted into and we 
+                    got some pretty bomb gifts!  The time to depart for Garvan Gardens came quick -- the
+                    time to get on one knee was approaching.`"
+        :itemQuote="`~Can you feel it!~`"
+        :quoteGiver="'Ross Lynch'"
+        :itemIcon="'mdi-bread-slice'"
+      />
+      <time-line-item
+        :titleBarColor="'red'"
+        :itemTitle="`Mystical Lights & Mr. Claus`"
+        :itemSubTitle="'December 21st 2022'"
+        :itemText="`Boy, was it cold, but we were ready to embrace it!  We came prepared -- 
+                    layered up and brand new pack of hot hands.  It was finally time to see
+                    the highly anticipated lights at Garvan Gardens!  Right after we had parked,
+                    I received a message from Rachel (THE secret photographer) that Mr. Santa
+                    Claus had stolen our planned spot from 5-7 pm.  Drats!  I was slightly panicking!
+                    Rachel, however, had a backup spot, so Plan A with the Plan B spot was underway!
+                    We traversed the mystical maze of lights, admiring all of the fixtures (there were
+                    huge 'paper' cranes!).  We were approaching THE spot and I had to execute emergency
+                    bathroom break in order to let Rachel know that we were close. My heart racing, I was 
+                    nervous but I was ready!`"
+        :itemQuote="`~I will posess your heart~`"
+        :quoteGiver="'Death Cab for Cutie'"
+        :itemIcon="'mdi-string-lights'"
+        :photoSlides="mysticalLightsAndMrClaus"
+      />
+      <time-line-item
+        :titleBarColor="'red'"
+        :itemTitle="`Fiancée Faith & Forever`"
+        :itemSubTitle="'December 21st 2022'"
+        :itemText="`We had reached the spot and my nerves spiked -- there were so many people
+                    around!  I stuck with it, and proceeded to tell you that I had a Christmas 
+                    present that I had made for you and that I wanted to give it to you -- it was
+                    this website!  So I gave you my phone and let you traverse the timeline of our
+                    relationship -- I could tell some happy tears were coming on (from both of us!).
+                    This luckily bought some time for most of those people to clear out.  Once you got 
+                    to the end of the timeline, I proceeded to the 'secret page', containing the Future
+                    of Us.  I went through how I felt and the future I saw for us -- then the time came -- 'This is it'.
+                    The ring was revealed and I proceeded to kneel.  Will you marry me?  You said YES!`"
+        :itemQuote="`~This is it. This is now. This is what I've been talking about.~`"
+        :quoteGiver="'Scotty McCreery'"
+        :itemIcon="'mdi-infinity'"
+        :photoSlides="fianceeAndForever"
       />
     </v-timeline>
     <!-- ______________ -->
@@ -624,6 +708,74 @@ export default {
       {
         id: 9,
         src: require("../assets/Slider Photos/SeniorYear/Festive/PolaroidScotty.jpg"),
+      },
+    ],
+    earmuffsAndEuphoria: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/TheBigDay/Earmuffs/earmuffTatyo1.jpg"),
+      },
+      {
+        id: 2,
+        src: require("../assets/Slider Photos/TheBigDay/Earmuffs/earmuffTatyo2.jpg"),
+      },
+    ],
+    rockyAndRolls: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/SophomoreYear/BurstPie.png"),
+      },
+    ],
+    mysticalLightsAndMrClaus: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/faithCranes2.jpg"),
+      },
+      {
+        id: 2,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/lightsSelfie.jpg"),
+      },
+      {
+        id: 3,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/faithLights1.jpg"),
+      },
+      {
+        id: 4,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/lightsSelfie2.jpg"),
+      },
+      {
+        id: 5,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/lightsSelfieKiss.jpg"),
+      },
+      {
+        id: 6,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/wyattYeti.jpg"),
+      },
+      {
+        id: 7,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/faithYeti.jpg"),
+      },
+      {
+        id: 8,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/bigTree.jpg"),
+      },
+      {
+        id: 9,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/cranes.jpg"),
+      },
+      {
+        id: 10,
+        src: require("../assets/Slider Photos/TheBigDay/Mystical/faithCranes.jpg"),
+      },
+    ],
+    fianceeAndForever: [
+      {
+        id: 1,
+        src: require("../assets/Slider Photos/TheBigDay/Fiancee/ringPortrait.jpg"),
+      },
+      {
+        id: 2,
+        src: require("../assets/Slider Photos/TheBigDay/Fiancee/ring.jpg"),
       },
     ],
   }),
